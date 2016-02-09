@@ -9,13 +9,14 @@ About survey
 In my company ZZZ, employees engagement survey is running annualy.
 Results of Team 1 and 2 of year 20XX is shown.  
 Survey consists of 8 areas, see some below.
-```{r areas, echo=FALSE}
-ar <- as.data.frame( c( 'My daily working life', 'Job satisfaction and engagement', 
-        'Leadership', 'Career and Development', 'Communication' ), row.names=NULL)
-# some areas were excluded because of limites space
-names(ar) <- c("area")
-kable(ar)
-```
+
+|area                            |
+|:-------------------------------|
+|My daily working life           |
+|Job satisfaction and engagement |
+|Leadership                      |
+|Career and Development          |
+|Communication                   |
 
 For each question employees have to answer how this question **important** and **satisfied**.
 
